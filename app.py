@@ -10,19 +10,19 @@ from src.follow_protocol import follow_protocol
 from src.unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="username",
-    password="pass",
-    like_per_day=1000,
+    login="crypto.mugs",
+    password="Qaz12wsx",
+    like_per_day=700,
     comments_per_day=0,
-    tag_list=['follow4follow', 'f4f', 'cute', 'l:212999109'],
+    tag_list=['cryptocurrency', 'mugs', 'litecoin', 'bitcoin'],
     tag_blacklist=['rain', 'thunderstorm'],
     user_blacklist={},
     max_like_for_one_tag=50,
-    follow_per_day=300,
+    follow_per_day=200,
     follow_time=1 * 60,
-    unfollow_per_day=300,
-    unfollow_break_min=15,
-    unfollow_break_max=30,
+    unfollow_per_day=200,
+    unfollow_break_min=20,
+    unfollow_break_max=40,
     log_mod=0,
     proxy='',
     # List of list of words, each of which will be used to generate comment

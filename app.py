@@ -10,11 +10,11 @@ from src.follow_protocol import follow_protocol
 from src.unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="user",
-    password="pass",
+    login="instantlfollows",
+    password="Qaz12wsx",
     like_per_day=700,
     comments_per_day=0,
-    tag_list=['cryptocurrency', 'mugs', 'litecoin', 'bitcoin'],
+    tag_list=['follow', 'followme', 'followback', 'followforfollow'],
     tag_blacklist=['rain', 'thunderstorm'],
     user_blacklist={},
     max_like_for_one_tag=50,
